@@ -1,5 +1,5 @@
 # Configuration of the kubernetes provider - note the absence of kubeconfig file
-provider "kubernetes" {
+/* provider "kubernetes" {
   version                = "=1.1.0"
   host                   = "${module.kubernetes.host}"
   username               = "${module.kubernetes.username}"
@@ -35,6 +35,7 @@ output "application_dns_name" {
   value = "${var.app_name}.${module.kubernetes-ingress.application_dns_name}"
 }
 
+*/
 /*
 variable "DATADOG_API_KEY" {}
 
