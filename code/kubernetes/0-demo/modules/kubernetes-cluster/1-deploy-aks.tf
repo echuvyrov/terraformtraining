@@ -1,12 +1,3 @@
-terraform {
-  backend "azurerm" {
-    storage_account_name = "storestategxawj4kwmfmgem"
-    container_name       = "terraform-state"
-    key                  = "prod.terraform.tfstate"
-    access_key           = "MkP5mUb7GAoDXw7xTfCHkQGpqQerKYKTXdM3SuL3YHXR+96tDH3KYm7o9yDinJa/3eVE1/p2aL0OKLr9339GPg=="
-  }
-}
-
 resource "azurerm_kubernetes_cluster" "main" {
   name                = "${var.prefix}-aks"
   location            = "${var.location}"
