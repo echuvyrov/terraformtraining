@@ -11,9 +11,9 @@ variable "app_replicas" {
 }
 
 variable "ARM_CLIENT_ID" {
-  default = "8cd0ed1b-ce39-40fa-9329-e1925ed90912"
+  default = ""
 }
 
 variable "ARM_CLIENT_SECRET" {
-  default = "d03f2c6c-d2ed-4177-840f-cd18e89e5380"
+  default = ""
 }
