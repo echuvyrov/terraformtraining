@@ -1,9 +1,9 @@
 variable "prefix" {
-  default = "munichdemo"
+  default = "hashidays"
 }
 
 variable "location" {
-  default = "Central US"
+  default = "West Europe"
 }
 
 variable "app_replicas" {

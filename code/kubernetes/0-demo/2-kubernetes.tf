@@ -1,5 +1,6 @@
 # Configuration of the kubernetes provider - note the absence of kubeconfig file
-/* provider "kubernetes" {
+/*
+provider "kubernetes" {
   version                = "=1.1.0"
   host                   = "${module.kubernetes.host}"
   username               = "${module.kubernetes.username}"
@@ -11,7 +12,7 @@
 }
 
 variable "app_name" {
-  default = "msbuild"
+  default = "hashidays"
 }
 
 # Deploy and ingress to configure the ingress controller
